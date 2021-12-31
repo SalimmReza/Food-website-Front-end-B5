@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*:after,
+*:before
+{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus
+{
+outline: 0 !important;
+outline-offset: 0;
+}
+
+a,
+a:hover
+{
+text-decoration: none;
+}
+
+ a:hover
+{
+   color: var(--primary-color) !important;
+} 
+
+ul,
+ol
+{
+ margin: 0;
+ padding: 0;
+}
+
+:root
+{
+    --primary-color: #A82C4B;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    
+    font-size: 100%;
+    font-weight: 400;
+}
+
+
+ ::-webkit-scrollbar
+{
+    width: 0.625rem;
+}
+
+ ::-webkit-scrollbar-thumb
+{
+    background: var(--primary-color);
+}
+::-webkit-scrollbar-thumb
+{
+    background: white;
+}
+
+
+h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: black;
+
+}
+
+
+h2
+{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: black; 
+}
+
+
+h4
+{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+h5
+{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+
+p
+{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.main-btn
+{
+    display: inline-block;
+    padding: 15px 15px;
+    line-height: 5px;
+    background: var(--primary-color);
+    color: white;
+    font-size:20px;
+    border: 10px;
+    border-color: var(--primary-color)!important;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    -webkit-transition:all .4s ease-out 0s ;
+    -o-transition:all .4s ease-out 0s  ;
+    -moz-transition: all .4s ease-out 0s ;
+    transition: all .4s ease-out 0s ;
+
+
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: red;
+    border: 10px;
+   
+    
+}
+
+.wrapper
+{
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+}
+
+.text-content
+{
+    width: 70%;
+    margin: auto;
+}
+
+
+/* --------------------header design--------------------- */
+
+.navigation-wrap
+{
+position: fixed;
+width: 100%;
+left: 0;
+z-index: 1000;
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+
+}
+
+.navigation-wrap .nav-item
+{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus
+{
+    outline: unset;
+    border: unset;
+   
+
+
+}
+
+.nav-link
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black !important;
+    letter-spacing: 1px;
+}
+
+.navigation-wrap .main-btn{
+    padding: 15px 20px;
+    border: 10px;
+    border-color:red;
+    margin-left: 10px;
+}
+
+.navigation-wrap.scroll-on
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .15s ease-in-out , 0s;
+}
+
