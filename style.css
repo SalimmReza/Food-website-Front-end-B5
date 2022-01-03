@@ -71,10 +71,10 @@ body
 
 h1
 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    margin-bottom: 3rem;
-    color: black;
+    margin-bottom: 1.5rem;
+    color: rgb(70, 22, 22);
 
 }
 
@@ -83,8 +83,8 @@ h2
 {
     font-size: 2.25rem;
     font-weight: 700;
-    margin-bottom: 3rem;
-    color: black; 
+    margin-bottom: 1rem;
+    color: rgb(253, 253, 253); 
 }
 
 
@@ -206,8 +206,42 @@ transition: all 0.3s ease-out;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgb(252, 252, 252);
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: all .15s ease-in-out , 0s;
 }
 
+
+/* <!-- -----------------------banner------------------------- --> */
+
+
+.top-banner
+{
+    width: 100%;
+    background: url(images/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 16.875rem 0 9.376rem;
+}
+
+
+
+/* <!-- -----------------------Count------------------------- --> */
+
+
+.counter-section
+{
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+}
+
+.counter-section p
+{
+color: white;
+text-transform: uppercase;
+}
+
+.counter-section span
+{
+color: white;
+text-transform: capitalize;
+}
