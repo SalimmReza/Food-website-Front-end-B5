@@ -1,0 +1,65 @@
+
+
+
+
+@media(max-width: 991px)
+{
+  /* --------------  custom classes */
+    .text-content
+        {
+            width: 100%;
+        }
+
+       /* //////////////////// navbar */
+
+        .navigation-wrap .navbar-brand img
+        {
+            height: 3.81rem;
+        }
+
+        .navigation-wrap .nav-link
+        {
+            line-height: 1.87rem;
+        }
+
+        .navigation-wrap
+        {
+            text-align: center;
+            background-color: white;
+        }
+
+/* -----------------------banner design------------- */
+       .top-banner
+       {
+           padding: 7.375rem 0 7.375rem;
+       }
+
+
+       @media(max-width: 767px)
+       {
+
+    .top-banner
+    {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+
+
+
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
