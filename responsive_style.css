@@ -43,8 +43,12 @@
         padding: 10.875rem 0 9.375rem;
     }
 
+/* ----------------------story-------------------- */
 
-
+        .story-section{
+            height: auto;
+            padding: 3rem 0;
+        }
 
        }
 
