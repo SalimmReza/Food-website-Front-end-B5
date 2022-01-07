@@ -61,6 +61,14 @@
             margin-top: 1rem;
         }
 
+        .footer .footer-link, .footer a i
+        {
+            padding: 0 0.7rem;
+        }
+
+
+
+
        }
 
 
